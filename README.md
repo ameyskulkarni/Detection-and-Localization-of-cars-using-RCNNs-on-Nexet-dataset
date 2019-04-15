@@ -31,7 +31,15 @@ Anchors-9
 
 All results are visible in the ipynb files of training and testing. With only running the 40 epochs the mAP over the test data gave 0.68 value. THis is close to the 75% expected. I trained more and the accuracy visibly improved from the loss graph and the bounding box accuracy but sadly I am not able to find the mAP after this training round because the I increased the dataset size and I always get and error of resource exhaustion. I am planning to make the code more modular so that I can allocate resources to different modules separately and this issue is overcome. The accuarcy can further be improved by training over a larger dataset and running for more epochs. I will try to do this and improve the accuracy. 
 
+train.ipynb- used to train
+test.ipynb- for generating loss graphs and finding mAP
 
+References -
+
+1. https://github.com/RockyXu66/Faster_RCNN_for_Open_Images_Dataset_Keras by Rockyxu66- excellent tutorial for using RCNN code on google colab
+2. https://towardsdatascience.com/faster-r-cnn-object-detection-implemented-by-keras-for-custom-data-from-googles-open-images-125f62b9141a for understanding the RCNN flow
+3. https://tryolabs.com/blog/2018/01/18/faster-r-cnn-down-the-rabbit-hole-of-modern-object-detection/ for understanding the RCNN architecture
+4. https://colab.research.google.com/notebooks/welcome.ipynb#recent=true- Google colab for the resources
 
 
 
