@@ -30,6 +30,7 @@ Epochs- 91
 Anchors-9
 
 All results are visible in the ipynb files of training and testing. With only running the 40 epochs the mAP over the test data gave 0.68 value. THis is close to the 75% expected. I trained more and the accuracy visibly improved from the loss graph and the bounding box accuracy but sadly I am not able to find the mAP after this training round because the I increased the dataset size and I always get and error of resource exhaustion. I am planning to make the code more modular so that I can allocate resources to different modules separately and this issue is overcome. The accuarcy can further be improved by training over a larger dataset and running for more epochs. I will try to do this and improve the accuracy. 
+Images of all results are also added in this repo. 
 
 Google drive link to check out the assignment- https://drive.google.com/open?id=1KYV_F9dSvXLh5clLvKeb2-sETz-mak6n
 
